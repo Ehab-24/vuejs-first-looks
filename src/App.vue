@@ -2,7 +2,6 @@
 import CounterButton from "./components/CounterButton.vue";
 import EventButton from "./components/EventButton.vue";
 import NavBar from "./components/NavBar.vue";
-import Heading from "./components/Heading.vue";
 
 export default {
   components: {
