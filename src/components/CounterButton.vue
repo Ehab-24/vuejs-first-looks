@@ -29,7 +29,7 @@ export default {
       hover:w-56
       border-2
       text-black
-      border-purple-700
+      border-orange-700
       font-semibold
       py-2
       rounded
