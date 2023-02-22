@@ -43,7 +43,9 @@ export default {
         v-for="button in counterButtons"
         :key="button.id"
         :name="button.name"
-      ></CounterButton>
+      >
+        Is it awesome?
+      </CounterButton>
 
       <EventButton
         v-for="button in eventButtons"
