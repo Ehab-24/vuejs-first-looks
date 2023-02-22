@@ -22,21 +22,9 @@ export default {
 <template>
   <button
     @click="increment()"
-    class="
-      h-10
-      w-52
-      my-2
-      hover:w-56
-      border-2
-      text-black
-      border-orange-700
-      font-semibold
-      py-2
-      rounded
-      hover:rounded-3xl
-      transition-all
-    "
+    class="w-56 hover:w-60 my-2 py-2 flex flex-col items-center justify-center border-2 text-black border-orange-700 font-semibold rounded hover:rounded-3xl transition-all"
   >
-    You clicked {{ name }} {{ count }} times.
+    <p>You clicked {{ name }} {{ count }} times.</p>
+    <slot />
   </button>
 </template>
