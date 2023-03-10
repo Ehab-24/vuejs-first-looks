@@ -8,4 +8,27 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 ## Recommended IDE Setup
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
->>>>>>> master
+
+## Installation
+Make sure you have **npm** and **vite** installed. Then simply clone this project and in the root directory of your project, run:
+
+> npm install
+
+then
+> npm run dev
+
+
+Or run the project in production mode with:
+> npm run build
+
+## Overview
+This project is a simple vue application that uses some of the core functionalities available in vue.
+
+### Components
+Following are the only three components in the project:
+ - Event Button
+   * Takes in an event as a _prop_ and fires it on click.
+ - Counter Button
+   *  Increments a local _ref_ on click.
+ - Navigation Bar
+   * Just for UI. Provides no functionality.
